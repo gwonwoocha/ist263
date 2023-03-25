@@ -1,0 +1,33 @@
+body{
+    background-color: #ffffff;
+    color:#000000;
+}
+p{
+    color: #000000;
+}
+a:visited{
+    color: #FF0000;
+}
+a:hover{
+    color:#000000;
+}
+h1{
+    color: #000080;
+}
+nav{
+    background-color: #000000;
+    padding: 10px;
+    margin-bottom: 30px;
+}
+nav a{
+    color: #8b0000;
+}
+nav a:visited{
+    color:#FF0000;
+}
+nav a:hover{
+    background-color: #0000FF;
+}
+.formQ{
+    color: #ffffff;
+}
