@@ -1,0 +1,40 @@
+body{
+    background-color: #ffffff;
+    color:#000000;
+}
+p{
+    color: #000000;
+}
+a:visited{
+    color: #FF0000;
+}
+a:hover{
+    color:#000000;
+}
+h1{
+    color: #000080;
+}
+nav{
+    background-color: #000000;
+    padding: 10px;
+    margin-bottom: 30px;
+}
+nav a{
+    color: #8b0000;
+}
+a:visited{
+    color:#FF0000;
+}
+nav a:hover{
+    background-color: #0000FF;
+}
+.formQ{
+    color: #ffffff;
+}
+.map{flex: 1; background-color: aqua; padding: 30px; border-radius: 1em;}
+@media only screen and (max-width:600px) {
+    
+    nav a {display: flex;
+        flex-direction: column;
+    }
+    span{display: none;}
