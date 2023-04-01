@@ -18,12 +18,10 @@ nav{
     background-color: #000000;
     padding: 10px;
     margin-bottom: 30px;
+    color: #0000FF;
 }
 nav a{
     color: #8b0000;
-}
-a:visited{
-    color:#FF0000;
 }
 nav a:hover{
     background-color: #0000FF;
@@ -31,10 +29,11 @@ nav a:hover{
 .formQ{
     color: #ffffff;
 }
-.map{flex: 1; background-color: aqua; padding: 30px; border-radius: 1em;}
-@media only screen and (max-width:600px) {
-    
-    nav a {display: flex;
+.map{flex: 1; padding: 30px; border-radius: 1em; margin-top: 10px; margin-bottom: 10px; flex-wrap: wrap; }
+@media only screen and (max-width: 600px) {
+    nav a {
+        display: flex;
         flex-direction: column;
     }
     span{display: none;}
+}
