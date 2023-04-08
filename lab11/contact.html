@@ -1,0 +1,126 @@
+<!Doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Contact</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <style>
+            .row1{
+                display: flex;
+                background-color: #afadad;
+                border-radius: 1em;
+                padding: 15px;
+                margin-top: 30px;
+            }
+            .r1Col1{
+                flex: 1;
+                background-color: #afadad;
+                padding: 30px;
+                border-radius: 1em;
+                margin-top: 10px;
+                margin-bottom: 10px;
+            }
+            .r1Col2{
+                flex: 1;
+                background-color: bisque;
+                padding: 30px;
+                border-radius: 1em;
+                margin-top: 10px;
+                margin-bottom: 10px;
+            }
+            .linkImg{
+                width: 20px;
+                height:20px;
+            }
+            .clear{
+                clear: both;
+            }
+            .row2{
+                margin-top: 10px;
+                display: flex;
+                background-color: #a79f9f;
+                border-radius: 1em;
+                padding:15px;
+                flex-wrap: wrap;
+            }
+            .r2Col1{
+                display: flex;
+                justify-content: center;
+                flex: 1;
+            }
+            .r2Col2{
+                flex: 1;
+                background-color: #a79f9f;
+                padding: 30px;
+                border-radius: 1em;
+                flex-wrap: wrap;
+                margin-top: 10px;
+                margin-bottom: 10px;
+            }
+        </style>
+    </head>
+    <body>
+        <nav>
+            <a href="index.html">Home <span>|</span></a>
+            <a href="skills.html"><span>|</span> Skills <span>|</span></a>
+            <a href="contact.html"><span>|</span> Contact <span>|</span></a>
+            <a href="#main" class="skip" tabindex="4">skip to content</a>
+            </nav>
+            <main>
+            <section>
+            <div class="row1">
+                <div class="r1Col1" alt="main">
+                    <h3>Address</h3><br>
+                    Gwonwoo Cha<br>919 E Genesse St,<br> Syracuse, NY, 13210
+                </div>
+                <div class="rlCol2">
+                    <a href="mailto:gcha01@syr.edu">Gwonwoo cha Email</a>
+                    <a href="https://www.linkedin.com/in/gwonwoocha/">My LinkedIn Profile</a> 
+                    <a href="https://www.linkedin.com/in/gwonwoocha/"><img src="../images/LinkedIn.png" alt="LinkedIn logo">LinkedIn logo</a>
+                </div>
+            </div>
+            <div class="row2">
+                <div class="r2Col1">
+                    <form action="https://formspree.io/f/xknajqbp" method="post">
+                        <label for="fullname">Employer Name/Company name:</label>
+                        <input type="text" id="fullname" name="full_name"> 
+                        <label for="Job">Job</label>
+                        <select id="Job" name="Job">
+                        <option value="Internship">Internship</option>
+                        <option value="Part-time">Part-time</option>
+                        <option value="Full-time">Full-time</option>
+                    </select>
+                    <label for="Role">Role</label>
+                    <input type="text" id="Role" name="Role">
+                <label for="fname">First name:</label>
+                <input type="text" id="fname" name="fname">
+                <br>
+                <textarea name="message" rows="10" cols="30">
+                    Job Description:
+                    </textarea>
+                <br>
+                <input type="checkbox"  id="Paid" name="Paid"   value="paid">
+                <label for="Paid">Paid</label>
+                <input type="checkbox"  id="Unpaid" name="Unpaid"   value="unpaid">
+                <label for="Unpaid">Unpaid</label>
+                <br>
+                <input type="radio" id="On-site" name="On-site"  value="On-site">
+                <label for="On-site">On-site</label>
+                <input type="radio" id="Remote"   name="Remote" value="Remote">
+                <label for="Remote">Remote</label>
+                <br>
+                <label for="date">Date:</label>
+                <input type="date"  id="date"  name="date"><br>
+                <input type="submit" value="submit">
+                        </form>
+                </div>
+                <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2915.7327307252976!2d-76.1391012845864!3d43.047054599431355!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d9f3a699e502a7%3A0xb691d71e17210137!2s919%20E%20Genesee%20St%2C%20Syracuse%2C%20NY%2013210!5e0!3m2!1sen!2sus!4v1675391510094!5m2!1sen!2sus" 
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </div>
+        </section>
+        </main>
+    </body>
+</html>
+    
