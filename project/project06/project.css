@@ -149,7 +149,7 @@ h3{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #B3D9FF;
+    background-color: #52a6f9;
     color: black;
     height: 150px;
 }
@@ -174,7 +174,7 @@ h3{
 .footer2{
     justify-content:space-between;
     display:flex;
-    background-color:  #70a1d2;
+    background-color:  #044e97;
     align-items: center;
 }
 .first{
@@ -190,9 +190,10 @@ h3{
     padding-right: 10px;
 }
 a {
+    color: #ffffff;
     text-decoration: none;
 }
-a:visited{
+a:visited {
     color: white;
     text-decoration: none;
 }
