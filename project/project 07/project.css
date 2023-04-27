@@ -1,0 +1,205 @@
+/*homepage*/
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@1&display=swap');
+.logo{
+    display: block;
+    width: 200px;
+    height: auto;
+}
+.nav{
+    background-color: #001f3f;
+    display:flex;
+    justify-content: center;
+    border: 0;
+    margin-bottom: 20px;
+    padding: 15px;
+    font-size: large;
+}
+nav a{
+    display:flex;
+    flex: 1;
+    color: lightgrey;
+    justify-content: center;
+}
+a:hover{
+    background-color: #34495e;
+    text-decoration: none;
+}
+section{
+    margin: 20px;
+    text-align: justify;
+}
+body{
+    background-color: #E6F2FF;
+    font-family: 'Roboto', sans-serif;
+}
+h1{
+    text-align: center;
+    color: #003366;
+    font-size: 36px;
+}
+h2{
+    font-size: 28px;
+}
+p{
+    font-size: 20px;
+}
+.homeimg{
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
+}
+/*Industries*/
+h3{
+    font-size: 25px;
+}
+.midtext{
+    width: 500px;
+}
+.lasttext{
+    width: 800px;
+}
+.healthcare{
+    display: flex;
+}
+.healthcareimg{
+    width: 300px;
+    margin: 1em;
+    padding: 13px;
+}
+.finance{
+    display: flex;
+}
+.financeimg{
+    width: 300px;
+    margin: 1em;
+    padding: 13px;
+}
+.retail{
+    display: flex;
+}
+.retailimg{
+    width: 300px;
+    margin: 1em;
+    padding: 13px;
+}
+.manufacturing{
+    display: flex;
+}
+.manufacturingimg{
+    width: 300px;
+    margin: 1em;
+    padding: 13px;
+}
+.customerservice{
+    display: flex;
+}
+.customerserviceimg{
+    width: 300px;
+    margin: 1em;
+    padding: 13px;
+}
+.security{
+    display: flex;
+}
+.securityimg{
+    width: 300px;
+    margin: 1em;
+    padding: 13px;
+}
+/*ChatGPTvsBard*/
+.chatgptvsbard {
+    display: block;
+    margin: 0 auto;
+    width: 80%;
+    height: auto;
+  }
+.chatgpttitle {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.chatgptcontent {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.bardtitle {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.bardcontent {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.chatgptvsbardtitle {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.chatgptvsbardcontent {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+/*footer*/
+.footer1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #52a6f9;
+    color: black;
+    height: 150px;
+}
+.email {
+    font-weight: bold;
+    padding: 10px;
+}
+.emailinput {
+    width: 350px;
+    height: auto;
+    padding: 10px;
+    font-size: 15px;
+    border: none;
+    padding: 10px;
+}
+.subscribe {
+    background-color: #ffffff;
+    color: darkgray;
+    padding: 10px;
+    color: black;
+}
+.footer2{
+    justify-content:space-between;
+    display:flex;
+    background-color:  #044e97;
+    align-items: center;
+}
+.first{
+    color:white;
+    display:flex;
+    padding-left: 10px;
+}
+.second{
+    display:flex;
+}
+.last{
+    display:flex;
+    padding-right: 10px;
+}
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+a:visited {
+    color: white;
+    text-decoration: none;
+}
+p {
+    text-align: left;
+}
+@media only screen and (max-width: 600px) {
+
+}
