@@ -7,25 +7,42 @@
     <link rel="stylesheet" href="project.css">
     <title>Homepage</title>
     <link rel="shortcut icon" type="image/x-icon" href="../images/favicon.ico">
+    <script>
+        function openModal(){
+            document.getElementById("modal").style.display = "block";
+        }
+        function closeModal(){
+            document.getElementById("modal").style.display = "none";
+        }
+    </script>
 </head>
-<style>
-   h1,h2{
-    font-family: 'Libre Baskerville', serif;
-   } 
-</style>
 <body>
     <header>
         <a href="Homepage.html">
             <img src="../images/itsum.png" class="logo" alt="logo" width="200" height="100">
         </a>
         <nav class="nav">
-            <a href="Homepage.html">Home</a>
-            <a href="Industries.html">Industries</a>
-            <a href="ChatGPTvsBard.html">ChatGPT vs Bard</a>
+            <div class="dropdown">
+              <a href="Homepage.html">Home</a>
+            </div>
+            <div class="dropdown">
+              <a href="Industries.html">Industries</a>
+              <div class="dropdown-content">
+                <a href="Industries.html">Healthcare</a>
+                <a href="Industries.html">Finance</a>
+                <a href="Industries.html">Retail</a>
+                <a href="Industries.html">Manufacturing</a>
+                <a href="Industries.html">Customer Service</a>
+                <a href="Industries.html">Security</a>
+              </div>
+            </div>
+            <div class="dropdown">
+              <a href="ChatGPTvsBard.html">ChatGPT vs Bard</a>
+            </div>
         </nav>
     </header>
     <section>
-    <img src="../images/AI.jpeg" class="homeimg" alt="home" width="500" height="250">
+    <img src="../images/AI.jpeg" class="homeimg" alt="AI" width="500" height="250">
     <!-- William Goddard/ITChronicles -->
     <h1>What is AI?</h1>
     <h2>What is AI?</h2>
@@ -37,11 +54,16 @@
     </p>
 </section>
 <footer class="footer1">
-    <form class="formemail" action="https://formspree.io/f/xknajqbp" method="post">
-        <label for="revieweremail" class="Email">Email</label>
-        <input id="revieweremail" type="text" class="emailinput" name="emailaddress">
-        <button class="subscribe" name="subscribebutton">Subscribe</button>
-    </form>
+    <p><a class="button" onclick="openModal();">Subscribe</a></p>
+    <div id="modal">
+        <span class="close" onclick="closeModal();">&times;</span>
+        <form action="https://formspree.io/f/xknajqbp" method="post">
+            <h2>Subscribe</h2>
+            <label for="email">Email Address:</label>
+            <input type="text" id="email" name="email">
+            <input type="submit" value="submit">
+        </form>
+    </div>
 </footer>
 <footer class="footer2">
     <div class="first">
