@@ -65,8 +65,8 @@ p{
 .homeimg{
     display: block;
     margin: 0 auto;
-    width: 500px;
-    height: 200px;
+    width: 1000px;
+    height: 360px;
 }
 /*Industries*/
 h3{
@@ -261,23 +261,47 @@ p {
     .healthcare{
         display: block;
     }
+    .healthcareimg{
+        width: 90%;
+        height: auto;
+    }
     .finance{
         display: block;
+    }
+    .financeimg{
+        width: 90%;
+        height: auto;
+    }
     }
     .retail{
         display: block;
     }
+    .retailimg{
+        width: 90%;
+        height: auto;
+    }
     .manufacturing{
         display: block;
+    }
+    .manufacturingimg{
+        width: 90%;
+        height: auto;
     }
     .customerservice{
         display: block;
     }
+    .customerserviceimg{
+        width: 90%;
+        height: auto;
+    }
     .security{
         display: block;
+    }
+    .securityimg{
+        width: 90%;
+        height: auto;
     }
     .chatgptvsbardimg {
         width: 100%;
         height: auto;
       }
-}
