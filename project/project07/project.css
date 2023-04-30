@@ -20,12 +20,11 @@ nav a{
     color: lightgrey;
     justify-content: center;
 }
-.dropdown-content {
+.dropdown-content{
     display: none;
     position: absolute;
   }
-  
-.dropdown:hover .dropdown-content {
+.dropdown:hover .dropdown-content{
     display: block;
 }
 .dropdown-content a {
@@ -75,6 +74,7 @@ h3{
 }
 .midtext{
     width: 500px;
+    margin-right: 10px;
 }
 .lasttext{
     width: 800px;
@@ -131,8 +131,8 @@ h3{
 .chatgptvsbard {
     display: block;
     margin: 0 auto;
-    width: 80%;
-    height: auto;
+    width: 1000px;
+    height: 360px;
   }
 .chatgpttitle {
     width: 80%;
