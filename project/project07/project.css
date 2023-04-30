@@ -78,6 +78,7 @@ h3{
 }
 .lasttext{
     width: 800px;
+    margin-left: 1em;
 }
 .healthcare{
     display: flex;
@@ -86,6 +87,7 @@ h3{
     width: 300px;
     margin: 1em;
     padding: 13px;
+    height: 300px;
 }
 .finance{
     display: flex;
@@ -94,6 +96,7 @@ h3{
     width: 300px;
     margin: 1em;
     padding: 13px;
+    height: 300px;
 }
 .retail{
     display: flex;
@@ -102,6 +105,7 @@ h3{
     width: 300px;
     margin: 1em;
     padding: 13px;
+    height: 300px;
 }
 .manufacturing{
     display: flex;
@@ -110,6 +114,7 @@ h3{
     width: 300px;
     margin: 1em;
     padding: 13px;
+    height: 300px;
 }
 .customerservice{
     display: flex;
@@ -118,6 +123,7 @@ h3{
     width: 300px;
     margin: 1em;
     padding: 13px;
+    height: 300px;
 }
 .security{
     display: flex;
@@ -126,6 +132,7 @@ h3{
     width: 300px;
     margin: 1em;
     padding: 13px;
+    height: 300px;
 }
 /*ChatGPTvsBard*/
 .chatgptvsbardimg {
@@ -272,7 +279,6 @@ p {
         width: 90%;
         height: auto;
     }
-    }
     .retail{
         display: block;
     }
@@ -304,4 +310,13 @@ p {
     .chatgptvsbardimg {
         width: 100%;
         height: auto;
-      }
+    }
+    .midtext{
+        width: 60%;
+        margin-left: 30px;
+    }
+    .lasttext{
+        width: 60%;
+        margin-left: 30px;
+    }    
+}
