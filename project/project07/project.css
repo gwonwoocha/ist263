@@ -9,11 +9,15 @@
     background-color: #ffbf00;
     padding: 5px;
     border: 1px solid #000000;
-    text-decoration: none;
     position: absolute;
     top: 10px;
     left: -999px;
+    color: #ffffff;
+    font-size: 20px;
 }
+.skip:hover {
+    background-color: red;
+  }
 .skip:focus{
     left: 10px;
 }
