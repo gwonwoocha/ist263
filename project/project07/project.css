@@ -81,6 +81,8 @@ p{
 .homeimg{
     display: block;
     margin: 0 auto;
+    width: 276px;
+    height: 184px;
 }
 /*Industries*/
 h3{
@@ -152,6 +154,8 @@ h3{
 .chatgptvsbardimg {
     display: block;
     margin: 0 auto;
+    width: 276px;
+    height: 184px;
 }
 .chatgpttitle {
     width: 80%;
